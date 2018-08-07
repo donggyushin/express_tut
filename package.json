@@ -1,0 +1,9 @@
+{
+  "name": "Express_tut",
+  "version": "1.0.0",
+  "description": "Express tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/donggyushin/express_tut.git",
+  "author": "donggyu",
+  "license": "MIT"
+}
