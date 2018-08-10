@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    .button {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      width: 50px;
+    }
+
+    .button_a {
+      color: white;
+    }
+
+  </style>
+  <body>
+    <h1><a href="/topic">Topic</a></h1>
+    <br>
+    <div class="button">
+      <a class="button_a" href="/topic/new">NEW</a>
+    </div>
+    <br>
+    <% for(var i = 0 ; i < files.length; i ++) { %>
+        <a href='/topic/<%=files[i] %>' ><%= files[i]%></a>
+        <br>
+    <%}%>
+    <hr>
+    <h2><%= title%></h2>
+    <br>
+    <p><%= desc%></p>
+  </body>
+</html>
